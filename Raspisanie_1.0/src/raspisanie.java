@@ -35,7 +35,7 @@ public class raspisanie {
 			System.out.println("Выходной");
 			break;
 		default :
-			System.out.println("Тякого дня недели нет");
+			System.out.println("Такого дня недели нет");
 		}
 	}
 }
