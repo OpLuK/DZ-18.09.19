@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class tablica {
 	public static void main (String[]args) {	
 	java.util.Scanner in = new Scanner(System.in);
-	System.out.print("Для какого числа(1-9) нужна таблица умножения:");
+	System.out.print("Р”Р»СЏ РєР°РєРѕРіРѕ С‡РёСЃР»Р°(1-9) РЅСѓР¶РЅР° С‚Р°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ:");
 	int num = in.nextInt();
 	in.close();
 	switch (num) {
@@ -34,7 +34,7 @@ public class tablica {
 		System.out.println("9*1 = 9" + '\n' + "9*2 = 18" + '\n' + "9*3 = 21" + '\n' + "9*4 = 36" + '\n' + "9*5 = 45" + '\n' + "9*6 = 54" + '\n' + "9*7 = 63" + '\n' + "9*8 = 72" + '\n' + "9*9 = 81");
 		break;
 	default :
-		System.out.print("В данной программе нет таблицы умножения для этого числа.");
+		System.out.print("Р’ РґР°РЅРЅРѕР№ РїСЂРѕРіСЂР°РјРјРµ РЅРµС‚ С‚Р°Р±Р»РёС†С‹ СѓРјРЅРѕР¶РµРЅРёСЏ РґР»СЏ СЌС‚РѕРіРѕ С‡РёСЃР»Р°.");
 	}
 	}
 }
